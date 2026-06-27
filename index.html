@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Collective</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Peak Collective</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Book Now</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Ride The Mountain. Own The Moment.</h2>
+        <p>Ski lessons, guided tours, and gear rentals in Truckee, California.</p>
+        <a href="#contact">Book Your Adventure</a>
+    </section>
+
+    <section id="about">
+        <h2>Who We Are</h2>
+        <p>Peak Collective is a group of local mountain obsessives who live to share the Sierra Nevada with anyone willing to strap on a board or click into skis. Whether you're a first timer or a seasoned shredder, we've got a run for you.</p>
+    </section>
+
+    <section id="services">
+        <h2>What We Offer</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>Ski Lessons</h3>
+                <p>Private and group lessons for all skill levels. From first timers to advanced carvers — our certified instructors have you covered.</p>
+            </div>
+            <div class="card">
+                <h3>Guided Tours</h3>
+                <p>Explore hidden powder stashes and backcountry terrain with our local expert guides. No crowds, just mountain.</p>
+            </div>
+            <div class="card">
+                <h3>Gear Rentals</h3>
+                <p>Top of the line skis, snowboards, boots, and helmets available daily. No need to lug your gear from home.</p>
+            </div>
+            <div class="card">
+                <h3>Group Packages</h3>
+                <p>Planning a ski trip with friends or family? We offer custom group packages with everything included.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <span class="price">$89</span>
+                <p>per person</p>
+                <ul>
+                    <li>2 Hour Group Lesson</li>
+                    <li>Gear Rental Included</li>
+                    <li>Trail Map & Guide</li>
+                </ul>
+                <a href="#contact">Book Now</a>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Adventure</h3>
+                <span class="price">$179</span>
+                <p>per person</p>
+                <ul>
+                    <li>Full Day Guided Tour</li>
+                    <li>Gear Rental Included</li>
+                    <li>Lunch Provided</li>
+                    <li>Photo Package</li>
+                </ul>
+                <a href="#contact">Book Now</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Group</h3>
+                <span class="price">$299</span>
+                <p>per group</p>
+                <ul>
+                    <li>Up to 6 People</li>
+                    <li>Private Instructor</li>
+                    <li>Gear Rental Included</li>
+                    <li>Après-ski Package</li>
+                </ul>
+                <a href="#contact">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Book Your Adventure</h2>
+        <p>Ready to hit the mountain? Fill out the form and we'll get back to you within 24 hours.</p>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" class="form-input">
+            <input type="email" placeholder="Your Email" class="form-input">
+            <input type="tel" placeholder="Your Phone Number" class="form-input">
+            <input type="date" class="form-input">
+            <select class="form-input">
+                <option value="" disabled selected>Select a Package</option>
+                <option value="starter">Starter — $89</option>
+                <option value="adventure">Adventure — $179</option>
+                <option value="group">Group — $299</option>
+            </select>
+            <textarea placeholder="Any questions or special requests?" class="form-input" rows="4" style="resize: none;"></textarea>
+            <button type="submit" class="form-button">Book My Adventure</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Peak Collective. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
